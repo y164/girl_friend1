@@ -17,7 +17,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen w-full">
+  <div class="min-h-screen w-full pb-[calc(60px+env(safe-area-inset-bottom))]">
     <router-view />
     <TabBar v-if="showTabBar" />
   </div>
