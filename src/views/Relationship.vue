@@ -180,7 +180,7 @@ function resetTest() {
                   class="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold"
                   :class="answers[currentQuestionIndex] === index ? 'bg-primary-500 text-white' : 'bg-gray-200 text-gray-600'"
                 >
-                  {{ String.fromCharCode(65 + index) }}
+                  {{ String.fromCharCode(65 + Number(index)) }}
                 </div>
                 <span class="text-gray-700">{{ option }}</span>
               </div>
