@@ -1,0 +1,6 @@
+name = "girlfriend1"
+main = "dist/index.html"
+compatibility_date = "2024-01-01"
+
+[pages]
+  [pages.dev]
